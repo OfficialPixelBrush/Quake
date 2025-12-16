@@ -192,6 +192,7 @@ void Draw_Character (int x, int y, int num)
 			dest += vid.conrowbytes;
 		}
 	}
+	/*
 	else
 	{
 	// FIXME: pre-expand to native format?
@@ -221,6 +222,7 @@ void Draw_Character (int x, int y, int num)
 			pusdest += (vid.conrowbytes >> 1);
 		}
 	}
+	*/
 }
 
 /*
